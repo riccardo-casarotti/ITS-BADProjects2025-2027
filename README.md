@@ -21,19 +21,15 @@ The repository is organized into sections based on the main modules covered duri
 
 ITS ICT Piemonte is a high-specialization technological academy. It adopts a "learning by doing" methodology through close collaboration with local enterprises.
 
-Location: Via Jacopo Durandi 10, Turin (Italy).
-Website: its-ictpiemonte.it
+Location: Via Jacopo Durandi 10, Turin (Italy). Website: its-ictpiemonte.it
 
 📫 Contact Me
 
 If you are interested in my projects or would like to discuss the world of ERP development:
 
-LinkedIn: www.linkedin.com/in/riccardo-casarotti
-Email: riccardocasarotti.rc@gmail.com
+LinkedIn: www.linkedin.com/in/riccardo-casarotti Email: riccardocasarotti.rc@gmail.com
 
 "Data is the new oil, but Business Applications are the engine that turns it into power."
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 BAD - Business Application Developer (2025-2027)
 ITS ICT Piemonte - Torino
@@ -58,14 +54,12 @@ Il repository è suddiviso in sezioni basate sui moduli principali trattati dura
 
 L'ITS ICT Piemonte è un'accademia di alta specializzazione tecnologica che adotta una metodologia di apprendimento basata sul "learning by doing" e sulla stretta collaborazione con le aziende del territorio.
 
-Sede: Via Jacopo Durandi 10, Torino.
-Sito Web: its-ictpiemonte.it
+Sede: Via Jacopo Durandi 10, Torino. Sito Web: its-ictpiemonte.it
 
 📫 Contatti
 
 Se sei interessato ai miei progetti o vuoi scambiare due chiacchiere sul mondo dello sviluppo ERP:
 
-LinkedIn: www.linkedin.com/in/riccardo-casarotti
-Email: riccardocasarotti.rc@gmail.com
+LinkedIn: www.linkedin.com/in/riccardo-casarotti Email: riccardocasarotti.rc@gmail.com
 
 "Data is the new oil, but Business Applications are the engine that turns it into power."
