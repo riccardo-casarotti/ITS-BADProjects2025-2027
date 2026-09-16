@@ -1,0 +1,62 @@
+﻿@model GAMMVC.Models.Opera
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Opera</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Inventario" class="control-label"></label>
+                <input asp-for="Inventario" class="form-control" />
+                <span asp-validation-for="Inventario" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdAutore" class="control-label"></label>
+                <select asp-for="IdAutore" class ="form-control" asp-items="ViewBag.IdAutore"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="AmbitoCulturale" class="control-label"></label>
+                <input asp-for="AmbitoCulturale" class="form-control" />
+                <span asp-validation-for="AmbitoCulturale" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Datazione" class="control-label"></label>
+                <input asp-for="Datazione" class="form-control" />
+                <span asp-validation-for="Datazione" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TitoloSoggetto" class="control-label"></label>
+                <input asp-for="TitoloSoggetto" class="form-control" />
+                <span asp-validation-for="TitoloSoggetto" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Immagine" class="control-label"></label>
+                <input asp-for="Immagine" class="form-control" />
+                <span asp-validation-for="Immagine" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Lsreferenceby" class="control-label"></label>
+                <input asp-for="Lsreferenceby" class="form-control" />
+                <span asp-validation-for="Lsreferenceby" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

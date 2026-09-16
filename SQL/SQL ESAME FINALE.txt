@@ -1,0 +1,180 @@
+/*
+Verifica finale Fondamenti di Basi di Dati
+Argomenti SQL(MySQL)
+Tempo stimato: 60 minuti
+Per le query MySQL usate il database 'corsi'.
+Per le query MongoDB usate la collection 'studenti'.
+
+/*
+Parte 1: DML (Inserimento, aggiornamento e Modifica dati)
+Es: 1.
+Inserite un nuovo corso nella tabella corsi, di seguito i valori:
+titolo: 'MongoDB',
+prezzo: 300.00,
+docente_id: 1
+-- dovete inserire un record con INSERT INTO
+*/
+-- Inserite l'SQL di seguito
+insert into corsi 
+values (default, 'MongoDB', 300.00, 1,default );
+
+/*
+Es: 2.
+Aggiornate l'email del docente Marco Bruni, la nuova email dovrà essere: 'marco.bruni@gmail.com'
+Eseguite prima una SELECT sulla tabella 'docenti' per identificare l'id.
+In seguito effettuate l'aggiornamento basandovi sull'id(chiave primaria) trovato.
+-- dovete fare prima una SELECT ed in seguito un UPDATE
+-- scrivete tutte e due le query
+*/
+-- Inserite l'SQL di seguito
+select * from docenti;
+
+update docenti
+set email = 'marco.bruni@gmail.com'
+where docenti.id = 6;
+/*
+Es: 3.
+Eliminate dalla tabella 'studenti' tutti gli studenti provenienti dalla regione 'Lombardia'.
+-- dovete fare una DELETE
+*/
+-- Inserite l'SQL di seguito
+select *from studenti
+where regione = 'Lombardia' ; 
+ 
+delete from studenti 
+where regione = 'Lombardia';
+
+/*
+Parte 3: DQL (Interrogazioni e JOIN)
+Es: 4.
+Selezionate nome, cognome, email del docente che insegna nel corso il cui titolo è 'Wordpress'
+*/
+-- Inserite l'SQL di seguito
+
+select nome, cognome, email, titolo 
+from docenti 
+inner join corsi 
+on docenti.id = docente_id
+where titolo = 'Wordpress';
+
+/*
+Es: 5.
+Seleziona cognome, nome, email, data_nascita di tutti gli studenti il cui genere è 'F'.
+Ordina per cognome, nome.
+*/
+-- Inserite l'SQL di seguito
+select cognome, nome, email, data_nascita, genere
+from studenti 
+where genere = 'F'
+order by cognome, nome;
+
+
+/*
+Es: 6.
+Seleziona cognome, nome, email, data_nascita di tutti gli studenti nati tra il '1990-01-01' e il '1999-12-31'.
+Ordina per: cognome, nome, data_nascita dalla più recente alla più remota.
+*/
+-- Inserite l'SQL di seguito
+
+select cognome, nome, email, data_nascita 
+from studenti 
+where data_nascita between '1990-01-01' and '1999-12-31'
+order by  cognome , nome , data_nascita desc;
+
+
+/*
+Es: 7.
+Selezionate il titolo del corso, il prezzo pagato all'atto dell'iscrizione e la data di iscrizione di tutti gli studenti iscritti.
+Ordinate per titolo e data_isc dalla data più recente alla data più remota (DESC)
+-- Ricordatatevi che il prezzo pagato all'atto dell'iscrizione viene inserito nella tabella iscrizioni
+*/
+-- Inserite l'SQL di seguito
+
+select titolo, iscrizioni.prezzo, data_isc
+from iscrizioni 
+inner join studenti
+on studenti.id = studente_id
+inner join corsi
+on corsi.id = corso_id 
+order by titolo, data_isc desc;
+
+
+/*
+Es: 8.
+Seleziona SOLO titolo dei corsi che non hanno iscritti.
+-- Ricordatevi come scrivere la JOIN (outer join: LEFT o RIGHT), se preferite potete usare una subquery
+*/
+-- Inserite l'SQL di seguito
+
+select titolo
+from corsi
+left join iscrizioni 
+on corsi.id = corso_id 
+where studente_id is null;
+
+-- uso la subquery
+select titolo
+from corsi
+where id not in (
+select corso_id 
+from iscrizioni);
+
+/*
+Es: 9
+Selezionate titolo del corso e numero di iscritti INCLUDENDO ANCHE i corsi per i quali non ci sono iscrizioni.
+ATTENZIONE all'uso della funzione COUNT(): ricordatevi di passare la colonna corretta come parametro.
+Se usate COUNT(*) anche i corsi che non hanno iscritti risulteranno con almeno 1 iscritto.
+*/
+-- Inserite l'SQL di seguito
+
+select titolo, count(i.id) as `Totale Numero Iscritti`
+from corsi c
+left join iscrizioni i
+on c.id = i.corso_id
+group by c.id, c.titolo;
+
+/*
+Es: 10.
+Seleziona il titolo del corso e il prezzo per tutti i corsi tenuti dal docente 
+il cui cognome è 'Rossi'.
+*/
+-- Inserite l'SQL di seguito
+select c.titolo, c.prezzo
+from corsi c
+inner join docenti d on d.id = c.docente_id
+where d.cognome = 'Rossi';
+
+
+/*
+Es: 11
+Selezionate il nome, il cognome dello studente, il titolo del corso a cui è iscritto e la data di iscrizione.
+Mostrate la data iscrizione con il formato italiano 'dd-mm-YYYY' rinominando la colonna come `data iscrizione` (attenzione ai backtick per l'alias).
+Ricordatevi della funzione: DATE_FORMAT([colonna],'formato')
+Il backtick si ottiene con ALT + 96 del tastierino numerico.
+Ordinate per titolo, data_isc decrescente.
+*/
+-- Inserite l'SQL di seguito
+
+select nome, cognome, titolo, DATE_FORMAT(i.data_isc, '%d-%m-%Y') AS `data iscrizione`
+from studenti s
+inner join iscrizioni i 
+on s.id = i.studente_id
+inner join corsi c
+on c.id = i.corso_id
+order by data_isc desc;
+
+/*
+12
+Conta il numero di studenti iscritti al corso di 'Introduzione alla programmazione'.
+Nella SELECT basta mostrare solo il conteggio: usate l'alias `Numero iscritti` per nominare la colonna del risultato
+*/
+-- Inserite l'SQL di seguito
+
+select COUNT(i.id) as `Num iscritti corso Introduz Programm`
+from iscrizioni i
+inner join corsi c 
+on c.id = i.corso_id
+where c.titolo = 'Introduzione alla programmazione';
+
+
+

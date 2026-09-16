@@ -1,0 +1,277 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\GAMMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\riccardo.casarotti\\Desktop\\asp.Net-MWC\\EsempioMWC\\PrestitiBiblioteca\\PrestitiBiblioteca\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2AA55E-49AF-A5CD-E0AF-D76AB689E1C6}|GAMMVC\\GAMMVC.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\gammvc\\gammvc\\controllers\\operecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C2AA55E-49AF-A5CD-E0AF-D76AB689E1C6}|GAMMVC\\GAMMVC.csproj|solutionrelative:gammvc\\controllers\\operecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2AA55E-49AF-A5CD-E0AF-D76AB689E1C6}|GAMMVC\\GAMMVC.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\gammvc\\gammvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C2AA55E-49AF-A5CD-E0AF-D76AB689E1C6}|GAMMVC\\GAMMVC.csproj|solutionrelative:gammvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2AA55E-49AF-A5CD-E0AF-D76AB689E1C6}|GAMMVC\\GAMMVC.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\gammvc\\gammvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C2AA55E-49AF-A5CD-E0AF-D76AB689E1C6}|GAMMVC\\GAMMVC.csproj|solutionrelative:gammvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2AA55E-49AF-A5CD-E0AF-D76AB689E1C6}|GAMMVC\\GAMMVC.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\gammvc\\gammvc\\views\\opere\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C2AA55E-49AF-A5CD-E0AF-D76AB689E1C6}|GAMMVC\\GAMMVC.csproj|solutionrelative:gammvc\\views\\opere\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2AA55E-49AF-A5CD-E0AF-D76AB689E1C6}|GAMMVC\\GAMMVC.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\gammvc\\gammvc\\views\\opere\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C2AA55E-49AF-A5CD-E0AF-D76AB689E1C6}|GAMMVC\\GAMMVC.csproj|solutionrelative:gammvc\\views\\opere\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2AA55E-49AF-A5CD-E0AF-D76AB689E1C6}|GAMMVC\\GAMMVC.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\gammvc\\gammvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C2AA55E-49AF-A5CD-E0AF-D76AB689E1C6}|GAMMVC\\GAMMVC.csproj|solutionrelative:gammvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2AA55E-49AF-A5CD-E0AF-D76AB689E1C6}|GAMMVC\\GAMMVC.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\gammvc\\gammvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C2AA55E-49AF-A5CD-E0AF-D76AB689E1C6}|GAMMVC\\GAMMVC.csproj|solutionrelative:gammvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2AA55E-49AF-A5CD-E0AF-D76AB689E1C6}|GAMMVC\\GAMMVC.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\gammvc\\gammvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C2AA55E-49AF-A5CD-E0AF-D76AB689E1C6}|GAMMVC\\GAMMVC.csproj|solutionrelative:gammvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2AA55E-49AF-A5CD-E0AF-D76AB689E1C6}|GAMMVC\\GAMMVC.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\gammvc\\gammvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C2AA55E-49AF-A5CD-E0AF-D76AB689E1C6}|GAMMVC\\GAMMVC.csproj|solutionrelative:gammvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2AA55E-49AF-A5CD-E0AF-D76AB689E1C6}|GAMMVC\\GAMMVC.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\gammvc\\gammvc\\views\\opere\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C2AA55E-49AF-A5CD-E0AF-D76AB689E1C6}|GAMMVC\\GAMMVC.csproj|solutionrelative:gammvc\\views\\opere\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2AA55E-49AF-A5CD-E0AF-D76AB689E1C6}|GAMMVC\\GAMMVC.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\gammvc\\gammvc\\models\\autore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C2AA55E-49AF-A5CD-E0AF-D76AB689E1C6}|GAMMVC\\GAMMVC.csproj|solutionrelative:gammvc\\models\\autore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2AA55E-49AF-A5CD-E0AF-D76AB689E1C6}|GAMMVC\\GAMMVC.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\gammvc\\gammvc\\models\\materiale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C2AA55E-49AF-A5CD-E0AF-D76AB689E1C6}|GAMMVC\\GAMMVC.csproj|solutionrelative:gammvc\\models\\materiale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2AA55E-49AF-A5CD-E0AF-D76AB689E1C6}|GAMMVC\\GAMMVC.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\gammvc\\gammvc\\models\\opera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C2AA55E-49AF-A5CD-E0AF-D76AB689E1C6}|GAMMVC\\GAMMVC.csproj|solutionrelative:gammvc\\models\\opera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2AA55E-49AF-A5CD-E0AF-D76AB689E1C6}|GAMMVC\\GAMMVC.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\gammvc\\gammvc\\models\\gamcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C2AA55E-49AF-A5CD-E0AF-D76AB689E1C6}|GAMMVC\\GAMMVC.csproj|solutionrelative:gammvc\\models\\gamcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2AA55E-49AF-A5CD-E0AF-D76AB689E1C6}|GAMMVC\\GAMMVC.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\gammvc\\gammvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5C2AA55E-49AF-A5CD-E0AF-D76AB689E1C6}|GAMMVC\\GAMMVC.csproj|solutionrelative:gammvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\asp.Net-MWC\\EsempioMWC\\PrestitiBiblioteca\\PrestitiBiblioteca\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\asp.Net-MWC\\EsempioMWC\\PrestitiBiblioteca\\PrestitiBiblioteca\\appsettings.json",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\asp.Net-MWC\\EsempioMWC\\PrestitiBiblioteca\\PrestitiBiblioteca\\appsettings.json",
+              "RelativeToolTip": "..\\..\\..\\asp.Net-MWC\\EsempioMWC\\PrestitiBiblioteca\\PrestitiBiblioteca\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-23T07:29:11.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\GAMMVC\\GAMMVC\\Program.cs",
+              "RelativeDocumentMoniker": "GAMMVC\\Program.cs",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\GAMMVC\\GAMMVC\\Program.cs",
+              "RelativeToolTip": "GAMMVC\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T10:11:59.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\GAMMVC\\GAMMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "GAMMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\GAMMVC\\GAMMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "GAMMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-22T10:10:13.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\GAMMVC\\GAMMVC\\Views\\Opere\\Details.cshtml",
+              "RelativeDocumentMoniker": "GAMMVC\\Views\\Opere\\Details.cshtml",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\GAMMVC\\GAMMVC\\Views\\Opere\\Details.cshtml",
+              "RelativeToolTip": "GAMMVC\\Views\\Opere\\Details.cshtml",
+              "ViewState": "AgIAAAkAAAAAjKNyE7X2vxYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-22T10:09:53.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\GAMMVC\\GAMMVC\\Views\\Opere\\Create.cshtml",
+              "RelativeDocumentMoniker": "GAMMVC\\Views\\Opere\\Create.cshtml",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\GAMMVC\\GAMMVC\\Views\\Opere\\Create.cshtml",
+              "RelativeToolTip": "GAMMVC\\Views\\Opere\\Create.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-22T10:09:35.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\GAMMVC\\GAMMVC\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "GAMMVC\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\GAMMVC\\GAMMVC\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "GAMMVC\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-22T10:09:31.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\GAMMVC\\GAMMVC\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "GAMMVC\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\GAMMVC\\GAMMVC\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "GAMMVC\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-22T10:09:29.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\GAMMVC\\GAMMVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "GAMMVC\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\GAMMVC\\GAMMVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "GAMMVC\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-22T10:09:26.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\GAMMVC\\GAMMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "GAMMVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\GAMMVC\\GAMMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "GAMMVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-22T10:09:24.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\GAMMVC\\GAMMVC\\Views\\Opere\\Index.cshtml",
+              "RelativeDocumentMoniker": "GAMMVC\\Views\\Opere\\Index.cshtml",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\GAMMVC\\GAMMVC\\Views\\Opere\\Index.cshtml",
+              "RelativeToolTip": "GAMMVC\\Views\\Opere\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-22T10:09:16.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OpereController.cs",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\GAMMVC\\GAMMVC\\Controllers\\OpereController.cs",
+              "RelativeDocumentMoniker": "GAMMVC\\Controllers\\OpereController.cs",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\GAMMVC\\GAMMVC\\Controllers\\OpereController.cs",
+              "RelativeToolTip": "GAMMVC\\Controllers\\OpereController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T10:07:08.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Autore.cs",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\GAMMVC\\GAMMVC\\Models\\Autore.cs",
+              "RelativeDocumentMoniker": "GAMMVC\\Models\\Autore.cs",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\GAMMVC\\GAMMVC\\Models\\Autore.cs",
+              "RelativeToolTip": "GAMMVC\\Models\\Autore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T10:03:40.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Materiale.cs",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\GAMMVC\\GAMMVC\\Models\\Materiale.cs",
+              "RelativeDocumentMoniker": "GAMMVC\\Models\\Materiale.cs",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\GAMMVC\\GAMMVC\\Models\\Materiale.cs",
+              "RelativeToolTip": "GAMMVC\\Models\\Materiale.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T10:03:28.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Opera.cs",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\GAMMVC\\GAMMVC\\Models\\Opera.cs",
+              "RelativeDocumentMoniker": "GAMMVC\\Models\\Opera.cs",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\GAMMVC\\GAMMVC\\Models\\Opera.cs",
+              "RelativeToolTip": "GAMMVC\\Models\\Opera.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T10:02:21.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GamContext.cs",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\GAMMVC\\GAMMVC\\Models\\GamContext.cs",
+              "RelativeDocumentMoniker": "GAMMVC\\Models\\GamContext.cs",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\GAMMVC\\GAMMVC\\Models\\GamContext.cs",
+              "RelativeToolTip": "GAMMVC\\Models\\GamContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAhwDoAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T09:58:10.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\GAMMVC\\GAMMVC\\appsettings.json",
+              "RelativeDocumentMoniker": "GAMMVC\\appsettings.json",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\GAMMVC\\GAMMVC\\appsettings.json",
+              "RelativeToolTip": "GAMMVC\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-22T09:50:35.862Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

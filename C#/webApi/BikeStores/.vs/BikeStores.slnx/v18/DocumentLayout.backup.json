@@ -1,0 +1,479 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\bikestores\\bikestoresproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|solutionrelative:bikestoresproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\bikestores\\bikestoresproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|solutionrelative:bikestoresproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\bikestores\\bikestoresproject\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|solutionrelative:bikestoresproject\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\bikestores\\bikestoresproject\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|solutionrelative:bikestoresproject\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\bikestores\\bikestoresproject\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|solutionrelative:bikestoresproject\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\bikestores\\bikestoresproject\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|solutionrelative:bikestoresproject\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\bikestores\\bikestoresproject\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|solutionrelative:bikestoresproject\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\bikestores\\bikestoresproject\\controllers\\storescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|solutionrelative:bikestoresproject\\controllers\\storescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\bikestores\\bikestoresproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|solutionrelative:bikestoresproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\bikestores\\bikestoresproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|solutionrelative:bikestoresproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\bikestores\\bikestoresproject\\views\\customers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|solutionrelative:bikestoresproject\\views\\customers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\bikestores\\bikestoresproject\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|solutionrelative:bikestoresproject\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\bikestores\\bikestoresproject\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|solutionrelative:bikestoresproject\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\bikestores\\bikestoresproject\\views\\staffs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|solutionrelative:bikestoresproject\\views\\staffs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\bikestores\\bikestoresproject\\views\\staffs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|solutionrelative:bikestoresproject\\views\\staffs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\bikestores\\bikestoresproject\\controllers\\staffscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|solutionrelative:bikestoresproject\\controllers\\staffscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\bikestores\\bikestoresproject\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|solutionrelative:bikestoresproject\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\bikestores\\bikestoresproject\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|solutionrelative:bikestoresproject\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\bikestores\\bikestoresproject\\views\\stores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|solutionrelative:bikestoresproject\\views\\stores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\bikestores\\bikestoresproject\\views\\stores\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|solutionrelative:bikestoresproject\\views\\stores\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\bikestores\\bikestoresproject\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|solutionrelative:bikestoresproject\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\bikestores\\bikestoresproject\\models\\bikestorescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|solutionrelative:bikestoresproject\\models\\bikestorescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\bikestores\\bikestoresproject\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|solutionrelative:bikestoresproject\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\bikestores\\bikestoresproject\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|solutionrelative:bikestoresproject\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\bikestores\\bikestoresproject\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|solutionrelative:bikestoresproject\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\bikestores\\bikestoresproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|solutionrelative:bikestoresproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\bikestores\\bikestoresproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C6AF9ABD-40C6-4191-97F7-7DE37E0A5CFB}|BikeStoresProject\\BikeStoresProject.csproj|solutionrelative:bikestoresproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "BikeStoresProject\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Models\\Order.cs",
+              "RelativeToolTip": "BikeStoresProject\\Models\\Order.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwB8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T15:17:54.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "BikeStoresProject\\Views\\Orders\\Index.cshtml",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "BikeStoresProject\\Views\\Orders\\Index.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAD4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T15:05:25.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "BikeStoresProject\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "BikeStoresProject\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAADwvzQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T15:04:30.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Views\\Customers\\Details.cshtml",
+              "RelativeDocumentMoniker": "BikeStoresProject\\Views\\Customers\\Details.cshtml",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Views\\Customers\\Details.cshtml",
+              "RelativeToolTip": "BikeStoresProject\\Views\\Customers\\Details.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAADwv0sAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T14:56:40.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Views\\Customers\\Index.cshtml",
+              "RelativeDocumentMoniker": "BikeStoresProject\\Views\\Customers\\Index.cshtml",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Views\\Customers\\Index.cshtml",
+              "RelativeToolTip": "BikeStoresProject\\Views\\Customers\\Index.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAADwvzcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T14:53:58.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "BikeStoresProject\\Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "BikeStoresProject\\Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T14:52:29.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Views\\Staffs\\Details.cshtml",
+              "RelativeDocumentMoniker": "BikeStoresProject\\Views\\Staffs\\Details.cshtml",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Views\\Staffs\\Details.cshtml",
+              "RelativeToolTip": "BikeStoresProject\\Views\\Staffs\\Details.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADUAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T14:46:03.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Views\\Staffs\\Index.cshtml",
+              "RelativeDocumentMoniker": "BikeStoresProject\\Views\\Staffs\\Index.cshtml",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Views\\Staffs\\Index.cshtml",
+              "RelativeToolTip": "BikeStoresProject\\Views\\Staffs\\Index.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAADwvxUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T14:42:14.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StoresController.cs",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Controllers\\StoresController.cs",
+              "RelativeDocumentMoniker": "BikeStoresProject\\Controllers\\StoresController.cs",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Controllers\\StoresController.cs",
+              "RelativeToolTip": "BikeStoresProject\\Controllers\\StoresController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T14:21:18.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "BikeStoresProject\\Views\\Products\\Details.cshtml",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "BikeStoresProject\\Views\\Products\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T14:18:12.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "BikeStoresProject\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Models\\Product.cs",
+              "RelativeToolTip": "BikeStoresProject\\Models\\Product.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T14:05:46.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "BikeStoresProject\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "BikeStoresProject\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T13:56:37.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "BikeStoresProject\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "BikeStoresProject\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAiwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T13:55:47.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BikeStoresProject\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BikeStoresProject\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T13:57:11.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BikeStoresProject\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "BikeStoresProject\\Views\\Home\\Index.cshtml*",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAwEgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T13:36:37.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Views\\Orders\\Details.cshtml",
+              "RelativeDocumentMoniker": "BikeStoresProject\\Views\\Orders\\Details.cshtml",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Views\\Orders\\Details.cshtml",
+              "RelativeToolTip": "BikeStoresProject\\Views\\Orders\\Details.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAADwv1wAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T15:08:31.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "BikeStoresProject\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Properties\\launchSettings.json",
+              "RelativeToolTip": "BikeStoresProject\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-23T15:21:28.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BikeStoresProject\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BikeStoresProject\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAB3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T13:36:44.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StaffsController.cs",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Controllers\\StaffsController.cs",
+              "RelativeDocumentMoniker": "BikeStoresProject\\Controllers\\StaffsController.cs",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Controllers\\StaffsController.cs",
+              "RelativeToolTip": "BikeStoresProject\\Controllers\\StaffsController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T14:40:26.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "BikeStoresProject\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "BikeStoresProject\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T14:43:40.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Program.cs",
+              "RelativeDocumentMoniker": "BikeStoresProject\\Program.cs",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Program.cs",
+              "RelativeToolTip": "BikeStoresProject\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T13:41:14.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Views\\Stores\\Index.cshtml",
+              "RelativeDocumentMoniker": "BikeStoresProject\\Views\\Stores\\Index.cshtml",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Views\\Stores\\Index.cshtml",
+              "RelativeToolTip": "BikeStoresProject\\Views\\Stores\\Index.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwD0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T14:25:39.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Views\\Stores\\Details.cshtml",
+              "RelativeDocumentMoniker": "BikeStoresProject\\Views\\Stores\\Details.cshtml",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Views\\Stores\\Details.cshtml",
+              "RelativeToolTip": "BikeStoresProject\\Views\\Stores\\Details.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwEQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T14:36:24.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BikeStoresContext.cs",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Models\\BikeStoresContext.cs",
+              "RelativeDocumentMoniker": "BikeStoresProject\\Models\\BikeStoresContext.cs",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Models\\BikeStoresContext.cs",
+              "RelativeToolTip": "BikeStoresProject\\Models\\BikeStoresContext.cs",
+              "ViewState": "AgIAAAoAAADANXf0v+QkwCoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T13:34:26.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "BikeStoresProject\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Models\\Customer.cs",
+              "RelativeToolTip": "BikeStoresProject\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T14:05:52.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "BikeStoresProject\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "BikeStoresProject\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T13:34:50.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\appsettings.json",
+              "RelativeDocumentMoniker": "BikeStoresProject\\appsettings.json",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\BikeStores\\BikeStoresProject\\appsettings.json",
+              "RelativeToolTip": "BikeStoresProject\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAACVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-23T13:31:08.355Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

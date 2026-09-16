@@ -1,0 +1,62 @@
+﻿@model IEnumerable<BikeStoresProject.Models.Product>
+
+@{
+    ViewData["Title"] = "Products";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-action="Index" method="get">
+    <p>
+        Cerca: <input type="text" name="searchTesto" value="@ViewBag.SearchTesto" class="form-control" style="display:inline; width:300px;" placeholder="Cerca Nome, Marca o Categoria" />
+        <input type="submit" value="Cerca" class="btn btn-primary" />
+        <a asp-action="Index" class="btn btn-outline-secondary">Rimuovi filtro</a>
+        <a asp-action="Index"
+           asp-route-searchTesto="@ViewBag.SearchTesto"
+           asp-route-sortOrder="@ViewBag.NextSortOrder"
+           class="btn btn-outline-secondary">
+            Ordina @(ViewBag.SortOrder == "asc" ? "Z-A ↓" : "A-Z ↑")
+        </a>
+    </p>
+</form>
+
+<table class="table table-striped table-hover align-middle shadow-sm">
+    <thead class="table-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductName)
+            </th>
+            <th class="text-end">
+                @Html.DisplayNameFor(model => model.ListPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Brand)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Category)
+            </th>
+            <th class="text-center">Azioni</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductName)
+            </td>
+            <td class="text-end">
+                @item.ListPrice.ToString("C")
+            </td>
+            <td>
+                <span class="badge bg-secondary">@item.Brand.BrandName</span>
+            </td>
+            <td>
+                <span class="badge bg-info text-dark">@item.Category.CategoryName</span>
+            </td>
+            <td class="text-center">
+                <a asp-action="Details" asp-route-id="@item.ProductId" class="btn btn-sm btn-outline-primary">Details</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

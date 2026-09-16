@@ -1,0 +1,81 @@
+﻿@model IEnumerable<Istat2.Models.Comune>
+
+@{
+    ViewData["Title"] = "Comuni";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-action="Index" method="get">
+    <p>
+        Cerca: <input type="text" name="searchTesto" value="@ViewData["CurrentFilter"]" class="form-control" style="display:inline; width:300px;" placeholder="Cerca Denbominazione, Codice Catastale, ecc..." />
+        <input type="submit" value="Cerca" class="btn btn-primary" />
+        <a asp-action="Index" class="btn btn-outline-secondary">Rimuovi filtro</a>
+    </p>
+</form>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Denominazione)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CodiceCatastale)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ComuneCapoluogo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AltitudineCentro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ZonaLitoranea)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Superficie)
+            </th>
+           
+            <th>
+                @Html.DisplayNameFor(model => model.Popolazione2011)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Denominazione)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CodiceCatastale)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ComuneCapoluogo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AltitudineCentro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ZonaLitoranea)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Superficie)
+            </td>
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.Popolazione2011)
+            </td>
+
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Modifica</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Dettagli</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Elimina</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

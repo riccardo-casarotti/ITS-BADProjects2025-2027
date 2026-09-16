@@ -1,0 +1,280 @@
+﻿<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Istat Viaggi</title>
+    <script type="importmap"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Work+Sans:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Istat2.styles.css" asp-append-version="true" />
+
+    <style>
+        :root {
+            --ink: #0B2A3D;
+            --ink-light: #274B63;
+            --paper: #F3EAD3;
+            --paper-deep: #E8DCBB;
+            --brass: #C9A227;
+            --vermillion: #C1440E;
+            --teal: #1D6F6B;
+            --font-display: 'Abril Fatface', serif;
+            --font-body: 'Work Sans', sans-serif;
+            --font-mono: 'Space Mono', monospace;
+        }
+
+        html, body { background: var(--paper); font-family: var(--font-body); color: var(--ink); }
+        h1, h2, h3, h4, .navbar-brand { font-family: var(--font-display); font-weight: 400; letter-spacing: .5px; }
+
+        /* ===== Header / navbar ===== */
+        header.agenzia-header { background: var(--ink); border-bottom: 4px solid var(--brass); }
+
+        .navbar.agenzia-navbar { padding: .6rem 0; }
+        .navbar.agenzia-navbar .navbar-brand {
+            color: var(--paper) !important;
+            font-size: 1.6rem;
+            display: flex; align-items: center; gap: .5rem;
+        }
+        .navbar.agenzia-navbar .navbar-brand small {
+            font-family: var(--font-mono);
+            font-size: .55rem;
+            letter-spacing: 2px;
+            color: var(--brass);
+            display: block;
+            margin-top: -4px;
+        }
+        .navbar.agenzia-navbar .nav-link {
+            color: var(--paper) !important;
+            font-family: var(--font-mono);
+            font-size: .8rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            padding: .5rem .9rem !important;
+            border-bottom: 2px solid transparent;
+            transition: border-color .2s ease, color .2s ease;
+        }
+        .navbar.agenzia-navbar .nav-link:hover { border-bottom-color: var(--vermillion); color: var(--brass) !important; }
+        .navbar.agenzia-navbar .navbar-toggler { border-color: var(--brass); }
+        .navbar.agenzia-navbar .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23C9A227' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        }
+
+        .compass-icon { width: 30px; height: 30px; flex-shrink: 0; }
+
+        /* ===== Departure strip (signature element) ===== */
+        .departure-strip {
+            background: linear-gradient(180deg, var(--ink) 0%, #0e3550 100%);
+            border-bottom: 1px solid rgba(201,162,39,.4);
+            padding: .9rem 0 1.1rem;
+        }
+        .departure-strip .strip-inner {
+            display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap;
+        }
+
+        /* Globe */
+        .globe-wrap { display: flex; align-items: center; gap: .6rem; flex-shrink: 0; }
+        .globe {
+            width: 46px; height: 46px; border-radius: 50%;
+            background: radial-gradient(circle at 32% 30%, #2f8f89, #0c2e2c 75%);
+            box-shadow: inset -6px -6px 12px rgba(0,0,0,.5), 0 0 0 3px var(--brass);
+            position: relative; overflow: hidden;
+        }
+        .globe::before {
+            content: ""; position: absolute; inset: 0;
+            background-image: repeating-linear-gradient(90deg, rgba(243,234,208,.4) 0 2px, transparent 2px 12px);
+            animation: spin-globe 5s linear infinite;
+        }
+        .globe::after {
+            content: ""; position: absolute; inset: 0; border-radius: 50%;
+            background: radial-gradient(circle at 65% 70%, rgba(0,0,0,.35), transparent 60%);
+        }
+        @@keyframes spin-globe { from { background-position-x: 0; } to { background-position-x: -120px; } }
+        .globe-caption { font-family: var(--font-mono); font-size: .62rem; color: var(--brass); letter-spacing: 1px; line-height: 1.3; }
+        .globe-caption strong { display: block; color: var(--paper); font-size: .75rem; letter-spacing: .5px; }
+
+        /* Departure board */
+        .board {
+            background: #061b28; border: 1px solid var(--brass); border-radius: 4px;
+            padding: .5rem 1rem; flex: 1 1 260px; min-width: 220px;
+            box-shadow: inset 0 0 12px rgba(0,0,0,.6);
+        }
+        .board-label { font-family: var(--font-mono); font-size: .6rem; color: var(--brass); letter-spacing: 2px; display: block; }
+        .board-value {
+            font-family: var(--font-mono); font-size: 1.15rem; color: var(--paper);
+            display: inline-block; transform-origin: center 60%;
+        }
+        .board-value.flip { animation: flipBoard .5s ease-in-out; }
+        @@keyframes flipBoard { 0% { transform: rotateX(0); } 45% { transform: rotateX(85deg); } 55% { transform: rotateX(85deg); } 100% { transform: rotateX(0); } }
+
+        /* Rail / train */
+        .rail-wrap { flex: 1 1 260px; min-width: 240px; }
+        .rail-svg { width: 100%; height: 46px; display: block; }
+        .rail-track { stroke: var(--brass); stroke-width: 2; stroke-dasharray: 6 6; opacity: .55; }
+        .rail-pin { fill: var(--vermillion); }
+
+        @@media (max-width: 767px) {
+            .departure-strip .strip-inner { justify-content: center; }
+            .rail-wrap { order: 3; }
+        }
+
+        /* ===== Body content wrapper ===== */
+        main.container { background: var(--paper); }
+
+        .btn-primary {
+            background-color: var(--vermillion); border-color: var(--vermillion);
+            font-family: var(--font-mono); letter-spacing: .5px; font-size: .85rem;
+        }
+        .btn-primary:hover { background-color: #9c3608; border-color: #9c3608; }
+
+        a { color: var(--teal); }
+        a:hover { color: var(--vermillion); }
+
+        /* ===== Footer ===== */
+        footer.agenzia-footer {
+            background: var(--ink); color: var(--paper); border-top: 4px solid var(--brass);
+            font-family: var(--font-mono); font-size: .75rem; letter-spacing: .5px;
+            padding: 1rem 0; margin-top: 3rem;
+        }
+        footer.agenzia-footer a { color: var(--brass); }
+
+        @@media (prefers-reduced-motion: reduce) {
+            .globe::before, .board-value.flip { animation: none !important; }
+        }
+    </style>
+</head>
+<body>
+    <header class="agenzia-header">
+        <nav class="navbar agenzia-navbar navbar-expand-sm navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <svg class="compass-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="20" cy="20" r="18" stroke="#C9A227" stroke-width="2"/>
+                        <path d="M20 8 L24 20 L20 32 L16 20 Z" fill="#C1440E"/>
+                        <circle cx="20" cy="20" r="2.5" fill="#F3EAD3"/>
+                    </svg>
+                    <span>Istat Viaggi<small>AGENZIA · SCOPRI I COMUNI D'ITALIA</small></span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Comuni" asp-action="Index">Comuni</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Regioni" asp-action="Index">Regioni</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Province" asp-action="Index">Province</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                    </ul>
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+
+        <div class="departure-strip">
+            <div class="container-fluid strip-inner">
+                <div class="globe-wrap">
+                    <div class="globe" aria-hidden="true"></div>
+                    <div class="globe-caption"><strong>ITALIA</strong>7.900+ comuni</div>
+                </div>
+
+                <div class="board">
+                    <span class="board-label">PROSSIMA PARTENZA</span>
+                    <span class="board-value" id="boardValue">Seleziona un comune &rarr;</span>
+                </div>
+
+                <div class="rail-wrap">
+                    <svg class="rail-svg" viewBox="0 0 400 46" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="10" y1="30" x2="390" y2="30" class="rail-track" />
+                        <circle cx="10" cy="30" r="4" class="rail-pin" />
+                        <circle cx="390" cy="30" r="4" class="rail-pin" />
+                        <path id="trainPath" d="M10,30 L390,30" fill="none" />
+                        <g id="trainIcon">
+                            <rect x="-14" y="-9" width="24" height="14" rx="2" fill="#C1440E" />
+                            <rect x="-16" y="-14" width="10" height="7" rx="1" fill="#C1440E" />
+                            <circle cx="-9" cy="7" r="3" fill="#C9A227" />
+                            <circle cx="3" cy="7" r="3" fill="#C9A227" />
+                            <animateMotion id="trainMotion" dur="3s" begin="indefinite" fill="freeze">
+                                <mpath href="#trainPath" />
+                            </animateMotion>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="agenzia-footer">
+        <div class="container d-flex justify-content-between flex-wrap">
+            <span>&copy; 2026 &middot; ISTAT VIAGGI &middot; Biglietto valido su tutte le tratte comunali</span>
+            <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <script>
+        (function () {
+            var board = document.getElementById('boardValue');
+            var trainMotion = document.getElementById('trainMotion');
+
+            function nomeComuneDaLink(link) {
+                if (link.dataset.comune) return link.dataset.comune;
+                var row = link.closest('tr');
+                if (row && row.cells && row.cells.length) return row.cells[0].innerText.trim();
+                return link.textContent.trim();
+            }
+
+            function aggiornaTabellone(nome) {
+                board.classList.remove('flip');
+                void board.offsetWidth; // restart animazione
+                setTimeout(function () { board.textContent = nome; }, 250);
+                board.classList.add('flip');
+            }
+
+            function avviaTreno() {
+                try { trainMotion.beginElement(); } catch (e) { /* SMIL non supportato */ }
+            }
+
+            // Espone una funzione globale utilizzabile da qualsiasi vista (bottoni, righe tabella, ecc.)
+            window.avviaViaggioVerso = function (nome, urlDestinazione) {
+                aggiornaTabellone(nome);
+                avviaTreno();
+                if (urlDestinazione) {
+                    setTimeout(function () { window.location.href = urlDestinazione; }, 3000);
+                }
+            };
+
+            document.addEventListener('click', function (e) {
+                var link = e.target.closest('a[href*="/Comuni/Details/"], a[data-comune]');
+                if (!link) return;
+                e.preventDefault();
+                var nome = nomeComuneDaLink(link);
+                window.avviaViaggioVerso(nome, link.href);
+            });
+        })();
+    </script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

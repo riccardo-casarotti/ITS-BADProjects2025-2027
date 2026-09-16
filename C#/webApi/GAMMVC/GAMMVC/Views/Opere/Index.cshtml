@@ -1,0 +1,69 @@
+﻿@model IEnumerable<GAMMVC.Models.Opera>
+
+@{
+    ViewData["Title"] = "Elenco opere";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form>
+    <p>
+        <form asp-action="Index" method="get">
+            <p>
+                Cerca: <input type="text" name="searchString" value="@ViewData["CurrentFilter"]" class="form-control" style="display:inline; width:300px;" placeholder="Cerca titolo, autore, ecc..." />
+                <input type="submit" value="Cerca" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-outline-secondary">Rimuovi filtro</a>
+            </p>
+        </form>
+    </p>
+</form>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            
+            <th>
+                @Html.DisplayNameFor(model => model.TitoloSoggetto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdAutoreNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AmbitoCulturale)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Datazione)
+            </th>
+            
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                    @Html.DisplayFor(modelItem => item.TitoloSoggetto)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdAutoreNavigation!.Nominativo)
+                </td>
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.AmbitoCulturale)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Datazione)
+            </td>
+            
+            <td>
+                
+                <a asp-action="Details" asp-route-id="@item.Id">Dettagli</a> 
+                
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

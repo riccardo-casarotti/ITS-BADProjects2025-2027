@@ -1,0 +1,73 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="p-5 mb-5 rounded-3 text-center text-white" style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);">
+    <div class="container-fluid py-5">
+        <h1 class="display-3 fw-bold">🚲 BikeStores</h1>
+        <p class="fs-5 opacity-75 mb-0">Il gestionale completo per prodotti, negozi, dipendenti, clienti e ordini.</p>
+    </div>
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 row-cols-lg-5 g-4">
+    <div class="col">
+        <div class="card h-100 border-0 shadow-sm text-center hover-card">
+            <div class="card-body py-4 d-flex flex-column">
+                <div class="fs-1 mb-2">🚲</div>
+                <h5 class="card-title fw-semibold">Products</h5>
+                <p class="card-text small text-muted">Catalogo biciclette per nome, marca o categoria.</p>
+                <a asp-controller="Products" asp-action="Index" class="btn btn-dark btn-sm px-3 mt-auto align-self-center">Esplora</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card h-100 border-0 shadow-sm text-center hover-card">
+            <div class="card-body py-4 d-flex flex-column">
+                <div class="fs-1 mb-2">🏬</div>
+                <h5 class="card-title fw-semibold">Stores</h5>
+                <p class="card-text small text-muted">Negozi per città o stato.</p>
+                <a asp-controller="Stores" asp-action="Index" class="btn btn-dark btn-sm px-3 mt-auto align-self-center">Esplora</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card h-100 border-0 shadow-sm text-center hover-card">
+            <div class="card-body py-4 d-flex flex-column">
+                <div class="fs-1 mb-2">👤</div>
+                <h5 class="card-title fw-semibold">Staff</h5>
+                <p class="card-text small text-muted">Dipendenti per nome o cognome.</p>
+                <a asp-controller="Staffs" asp-action="Index" class="btn btn-dark btn-sm px-3 mt-auto align-self-center">Esplora</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card h-100 border-0 shadow-sm text-center hover-card">
+            <div class="card-body py-4 d-flex flex-column">
+                <div class="fs-1 mb-2">🧑‍💼</div>
+                <h5 class="card-title fw-semibold">Customers</h5>
+                <p class="card-text small text-muted">Clienti per nome o cognome.</p>
+                <a asp-controller="Customers" asp-action="Index" class="btn btn-dark btn-sm px-3 mt-auto align-self-center">Esplora</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card h-100 border-0 shadow-sm text-center hover-card">
+            <div class="card-body py-4 d-flex flex-column">
+                <div class="fs-1 mb-2">📦</div>
+                <h5 class="card-title fw-semibold">Orders</h5>
+                <p class="card-text small text-muted">Ordini con dettaglio completo.</p>
+                <a asp-controller="Orders" asp-action="Index" class="btn btn-dark btn-sm px-3 mt-auto align-self-center">Esplora</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .hover-card {
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .hover-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15) !important;
+    }
+</style>

@@ -1,0 +1,14 @@
+C:\Users\riccardo.casarotti\Desktop\C#\FileTesto_Lettura\FileTesto_Lettura\bin\Debug\net10.0\FileTesto_Lettura.exe
+C:\Users\riccardo.casarotti\Desktop\C#\FileTesto_Lettura\FileTesto_Lettura\bin\Debug\net10.0\FileTesto_Lettura.deps.json
+C:\Users\riccardo.casarotti\Desktop\C#\FileTesto_Lettura\FileTesto_Lettura\bin\Debug\net10.0\FileTesto_Lettura.runtimeconfig.json
+C:\Users\riccardo.casarotti\Desktop\C#\FileTesto_Lettura\FileTesto_Lettura\bin\Debug\net10.0\FileTesto_Lettura.dll
+C:\Users\riccardo.casarotti\Desktop\C#\FileTesto_Lettura\FileTesto_Lettura\bin\Debug\net10.0\FileTesto_Lettura.pdb
+C:\Users\riccardo.casarotti\Desktop\C#\FileTesto_Lettura\FileTesto_Lettura\obj\Debug\net10.0\FileTesto_Lettura.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\riccardo.casarotti\Desktop\C#\FileTesto_Lettura\FileTesto_Lettura\obj\Debug\net10.0\FileTesto_Lettura.AssemblyInfoInputs.cache
+C:\Users\riccardo.casarotti\Desktop\C#\FileTesto_Lettura\FileTesto_Lettura\obj\Debug\net10.0\FileTesto_Lettura.AssemblyInfo.cs
+C:\Users\riccardo.casarotti\Desktop\C#\FileTesto_Lettura\FileTesto_Lettura\obj\Debug\net10.0\FileTesto_Lettura.csproj.CoreCompileInputs.cache
+C:\Users\riccardo.casarotti\Desktop\C#\FileTesto_Lettura\FileTesto_Lettura\obj\Debug\net10.0\FileTesto_Lettura.dll
+C:\Users\riccardo.casarotti\Desktop\C#\FileTesto_Lettura\FileTesto_Lettura\obj\Debug\net10.0\refint\FileTesto_Lettura.dll
+C:\Users\riccardo.casarotti\Desktop\C#\FileTesto_Lettura\FileTesto_Lettura\obj\Debug\net10.0\FileTesto_Lettura.pdb
+C:\Users\riccardo.casarotti\Desktop\C#\FileTesto_Lettura\FileTesto_Lettura\obj\Debug\net10.0\FileTesto_Lettura.genruntimeconfig.cache
+C:\Users\riccardo.casarotti\Desktop\C#\FileTesto_Lettura\FileTesto_Lettura\obj\Debug\net10.0\ref\FileTesto_Lettura.dll

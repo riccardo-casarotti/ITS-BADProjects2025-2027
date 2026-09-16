@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\FileCSV-Lettura\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C74DDFA3-63EA-4AF4-85CA-C3B10CCA4632}|FileCSV-Lettura\\FileCSV-Lettura.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\filecsv-lettura\\filecsv-lettura\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C74DDFA3-63EA-4AF4-85CA-C3B10CCA4632}|FileCSV-Lettura\\FileCSV-Lettura.csproj|solutionrelative:filecsv-lettura\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C74DDFA3-63EA-4AF4-85CA-C3B10CCA4632}|FileCSV-Lettura\\FileCSV-Lettura.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\filecsv-lettura\\filecsv-lettura\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C74DDFA3-63EA-4AF4-85CA-C3B10CCA4632}|FileCSV-Lettura\\FileCSV-Lettura.csproj|solutionrelative:filecsv-lettura\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C74DDFA3-63EA-4AF4-85CA-C3B10CCA4632}|FileCSV-Lettura\\FileCSV-Lettura.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\filecsv-lettura\\filecsv-lettura\\file\\persone.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C74DDFA3-63EA-4AF4-85CA-C3B10CCA4632}|FileCSV-Lettura\\FileCSV-Lettura.csproj|solutionrelative:filecsv-lettura\\file\\persone.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C74DDFA3-63EA-4AF4-85CA-C3B10CCA4632}|FileCSV-Lettura\\FileCSV-Lettura.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\filecsv-lettura\\filecsv-lettura\\tiposesso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C74DDFA3-63EA-4AF4-85CA-C3B10CCA4632}|FileCSV-Lettura\\FileCSV-Lettura.csproj|solutionrelative:filecsv-lettura\\tiposesso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Persone.csv",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\FileCSV-Lettura\\FileCSV-Lettura\\File\\Persone.csv",
+              "RelativeDocumentMoniker": "FileCSV-Lettura\\File\\Persone.csv",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\FileCSV-Lettura\\FileCSV-Lettura\\File\\Persone.csv",
+              "RelativeToolTip": "FileCSV-Lettura\\File\\Persone.csv",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2026-07-02T08:12:34.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TipoSesso.cs",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\FileCSV-Lettura\\FileCSV-Lettura\\TipoSesso.cs",
+              "RelativeDocumentMoniker": "FileCSV-Lettura\\TipoSesso.cs",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\FileCSV-Lettura\\FileCSV-Lettura\\TipoSesso.cs",
+              "RelativeToolTip": "FileCSV-Lettura\\TipoSesso.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T08:02:23.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\FileCSV-Lettura\\FileCSV-Lettura\\Persona.cs",
+              "RelativeDocumentMoniker": "FileCSV-Lettura\\Persona.cs",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\FileCSV-Lettura\\FileCSV-Lettura\\Persona.cs",
+              "RelativeToolTip": "FileCSV-Lettura\\Persona.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA5wC4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T08:01:59.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\FileCSV-Lettura\\FileCSV-Lettura\\Program.cs",
+              "RelativeDocumentMoniker": "FileCSV-Lettura\\Program.cs",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\FileCSV-Lettura\\FileCSV-Lettura\\Program.cs",
+              "RelativeToolTip": "FileCSV-Lettura\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwB0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T08:01:34.978Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\istat2\\istat2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|solutionrelative:istat2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\istat2\\istat2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|solutionrelative:istat2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\istat2\\istat2\\views\\province\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|solutionrelative:istat2\\views\\province\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\istat2\\istat2\\models\\zonamontana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|solutionrelative:istat2\\models\\zonamontana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\istat2\\istat2\\models\\zonaaltimetrica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|solutionrelative:istat2\\models\\zonaaltimetrica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\istat2\\istat2\\models\\ripartizionegeografica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|solutionrelative:istat2\\models\\ripartizionegeografica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\istat2\\istat2\\models\\regione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|solutionrelative:istat2\\models\\regione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\istat2\\istat2\\models\\provincium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|solutionrelative:istat2\\models\\provincium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\istat2\\istat2\\models\\comune.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|solutionrelative:istat2\\models\\comune.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\istat2\\istat2\\models\\istatcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|solutionrelative:istat2\\models\\istatcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\istat2\\istat2\\views\\regioni\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|solutionrelative:istat2\\views\\regioni\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\istat2\\istat2\\controllers\\comunicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|solutionrelative:istat2\\controllers\\comunicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\istat2\\istat2\\controllers\\provincecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|solutionrelative:istat2\\controllers\\provincecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\istat2\\istat2\\views\\comuni\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|solutionrelative:istat2\\views\\comuni\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\istat2\\istat2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|solutionrelative:istat2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\istat2\\istat2\\models\\vwcomuniinpianura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|solutionrelative:istat2\\models\\vwcomuniinpianura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\istat2\\istat2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|solutionrelative:istat2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\istat2\\istat2\\views\\comuni\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|solutionrelative:istat2\\views\\comuni\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\istat2\\istat2\\controllers\\regionicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|solutionrelative:istat2\\controllers\\regionicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\istat2\\istat2\\views\\comuni\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76ACF7BD-1666-3AA7-0F95-3772E19C0E46}|Istat2\\Istat2.csproj|solutionrelative:istat2\\views\\comuni\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\Views\\Province\\Index.cshtml",
+              "RelativeDocumentMoniker": "Istat2\\Views\\Province\\Index.cshtml",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\Views\\Province\\Index.cshtml",
+              "RelativeToolTip": "Istat2\\Views\\Province\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAoAAACsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T10:42:52.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Regione.cs",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\Models\\Regione.cs",
+              "RelativeDocumentMoniker": "Istat2\\Models\\Regione.cs",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\Models\\Regione.cs",
+              "RelativeToolTip": "Istat2\\Models\\Regione.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T08:30:42.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Provincium.cs",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\Models\\Provincium.cs",
+              "RelativeDocumentMoniker": "Istat2\\Models\\Provincium.cs",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\Models\\Provincium.cs",
+              "RelativeToolTip": "Istat2\\Models\\Provincium.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T08:30:32.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\appsettings.json",
+              "RelativeDocumentMoniker": "Istat2\\appsettings.json",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\appsettings.json",
+              "RelativeToolTip": "Istat2\\appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAIAAACPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-23T08:23:08.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\Program.cs",
+              "RelativeDocumentMoniker": "Istat2\\Program.cs",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\Program.cs",
+              "RelativeToolTip": "Istat2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T08:31:51.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RipartizioneGeografica.cs",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\Models\\RipartizioneGeografica.cs",
+              "RelativeDocumentMoniker": "Istat2\\Models\\RipartizioneGeografica.cs",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\Models\\RipartizioneGeografica.cs",
+              "RelativeToolTip": "Istat2\\Models\\RipartizioneGeografica.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T08:30:48.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Comune.cs",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\Models\\Comune.cs",
+              "RelativeDocumentMoniker": "Istat2\\Models\\Comune.cs",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\Models\\Comune.cs",
+              "RelativeToolTip": "Istat2\\Models\\Comune.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAIwBkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T08:49:05.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ZonaAltimetrica.cs",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\Models\\ZonaAltimetrica.cs",
+              "RelativeDocumentMoniker": "Istat2\\Models\\ZonaAltimetrica.cs",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\Models\\ZonaAltimetrica.cs",
+              "RelativeToolTip": "Istat2\\Models\\ZonaAltimetrica.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T08:30:57.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IstatContext.cs",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\Models\\IstatContext.cs",
+              "RelativeDocumentMoniker": "Istat2\\Models\\IstatContext.cs",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\Models\\IstatContext.cs",
+              "RelativeToolTip": "Istat2\\Models\\IstatContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAkwCsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T08:25:52.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\Views\\Regioni\\Index.cshtml",
+              "RelativeDocumentMoniker": "Istat2\\Views\\Regioni\\Index.cshtml",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\Views\\Regioni\\Index.cshtml",
+              "RelativeToolTip": "Istat2\\Views\\Regioni\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T10:35:51.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ComuniController.cs",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\Controllers\\ComuniController.cs",
+              "RelativeDocumentMoniker": "Istat2\\Controllers\\ComuniController.cs",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\Controllers\\ComuniController.cs",
+              "RelativeToolTip": "Istat2\\Controllers\\ComuniController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T08:27:14.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ZonaMontana.cs",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\Models\\ZonaMontana.cs",
+              "RelativeDocumentMoniker": "Istat2\\Models\\ZonaMontana.cs",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\Models\\ZonaMontana.cs",
+              "RelativeToolTip": "Istat2\\Models\\ZonaMontana.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T08:31:04.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProvinceController.cs",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\Controllers\\ProvinceController.cs",
+              "RelativeDocumentMoniker": "Istat2\\Controllers\\ProvinceController.cs",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\Controllers\\ProvinceController.cs",
+              "RelativeToolTip": "Istat2\\Controllers\\ProvinceController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T10:42:03.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\Views\\Comuni\\Index.cshtml",
+              "RelativeDocumentMoniker": "Istat2\\Views\\Comuni\\Index.cshtml",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\Views\\Comuni\\Index.cshtml",
+              "RelativeToolTip": "Istat2\\Views\\Comuni\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T09:49:12.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Istat2\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Istat2\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T09:58:25.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "VwComuniInPianura.cs",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\Models\\VwComuniInPianura.cs",
+              "RelativeDocumentMoniker": "Istat2\\Models\\VwComuniInPianura.cs",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\Models\\VwComuniInPianura.cs",
+              "RelativeToolTip": "Istat2\\Models\\VwComuniInPianura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T08:34:56.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Istat2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Istat2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAAKoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T08:38:16.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\Views\\Comuni\\Details.cshtml",
+              "RelativeDocumentMoniker": "Istat2\\Views\\Comuni\\Details.cshtml",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\Views\\Comuni\\Details.cshtml",
+              "RelativeToolTip": "Istat2\\Views\\Comuni\\Details.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T09:57:23.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RegioniController.cs",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\Controllers\\RegioniController.cs",
+              "RelativeDocumentMoniker": "Istat2\\Controllers\\RegioniController.cs",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\Controllers\\RegioniController.cs",
+              "RelativeToolTip": "Istat2\\Controllers\\RegioniController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T10:33:53.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\Views\\Comuni\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Istat2\\Views\\Comuni\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\Istat2\\Istat2\\Views\\Comuni\\Edit.cshtml",
+              "RelativeToolTip": "Istat2\\Views\\Comuni\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T10:02:35.667Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

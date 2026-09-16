@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\PrestitiBibliotecaWebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A23357-7FFD-3542-1EB8-8C6EB9B4CD11}|PrestitiBibliotecaWebAPI\\PrestitiBibliotecaWebAPI.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\prestitibibliotecawebapi\\prestitibibliotecawebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A23357-7FFD-3542-1EB8-8C6EB9B4CD11}|PrestitiBibliotecaWebAPI\\PrestitiBibliotecaWebAPI.csproj|solutionrelative:prestitibibliotecawebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A23357-7FFD-3542-1EB8-8C6EB9B4CD11}|PrestitiBibliotecaWebAPI\\PrestitiBibliotecaWebAPI.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\prestitibibliotecawebapi\\prestitibibliotecawebapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A23357-7FFD-3542-1EB8-8C6EB9B4CD11}|PrestitiBibliotecaWebAPI\\PrestitiBibliotecaWebAPI.csproj|solutionrelative:prestitibibliotecawebapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A23357-7FFD-3542-1EB8-8C6EB9B4CD11}|PrestitiBibliotecaWebAPI\\PrestitiBibliotecaWebAPI.csproj|c:\\users\\riccardo.casarotti\\desktop\\c#\\webapi\\prestitibibliotecawebapi\\prestitibibliotecawebapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A23357-7FFD-3542-1EB8-8C6EB9B4CD11}|PrestitiBibliotecaWebAPI\\PrestitiBibliotecaWebAPI.csproj|solutionrelative:prestitibibliotecawebapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\PrestitiBibliotecaWebAPI\\PrestitiBibliotecaWebAPI\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "PrestitiBibliotecaWebAPI\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\PrestitiBibliotecaWebAPI\\PrestitiBibliotecaWebAPI\\WeatherForecast.cs",
+              "RelativeToolTip": "PrestitiBibliotecaWebAPI\\WeatherForecast.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T09:37:32.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\PrestitiBibliotecaWebAPI\\PrestitiBibliotecaWebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "PrestitiBibliotecaWebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\PrestitiBibliotecaWebAPI\\PrestitiBibliotecaWebAPI\\Program.cs",
+              "RelativeToolTip": "PrestitiBibliotecaWebAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T09:37:26.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\PrestitiBibliotecaWebAPI\\PrestitiBibliotecaWebAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "PrestitiBibliotecaWebAPI\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\riccardo.casarotti\\Desktop\\C#\\webApi\\PrestitiBibliotecaWebAPI\\PrestitiBibliotecaWebAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "PrestitiBibliotecaWebAPI\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T09:37:23.187Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

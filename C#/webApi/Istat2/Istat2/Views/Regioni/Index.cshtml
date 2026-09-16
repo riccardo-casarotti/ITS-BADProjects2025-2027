@@ -1,0 +1,48 @@
+﻿@model IEnumerable<Istat2.Models.Regione>
+
+@{
+    ViewData["Title"] = "Regioni";
+}
+
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-action="Index" method="get">
+    <p>
+        Cerca: <input type="text" name="searchTesto" value="@ViewData["CurrentFilter"]" class="form-control" style="display:inline; width:300px;" placeholder="Cerca Denominazione, ecc..." />
+        <input type="submit" value="Cerca" class="btn btn-primary" />
+        <a asp-action="Index" class="btn btn-outline-secondary">Rimuovi filtro</a>
+    </p>
+</form>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Denominazione)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdRipartizioneNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Denominazione)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdRipartizioneNavigation.Id)
+            </td>
+            <td>
+                    <a asp-action="Details" asp-route-id="@item.Id">Dettagli</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

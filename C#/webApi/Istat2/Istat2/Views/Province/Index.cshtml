@@ -1,0 +1,61 @@
+﻿@model IEnumerable<Istat2.Models.Provincium>
+
+@{
+    ViewData["Title"] = "Province";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-action="Index" method="get">
+    <p>
+        Cerca: <input type="text" name="searchTesto" value="@ViewData["CurrentFilter"]" class="form-control" style="display:inline; width:300px;" placeholder="Cerca Sigla o Denominazione" />
+        <input type="submit" value="Cerca" class="btn btn-primary" />
+        <a asp-action="Index" class="btn btn-outline-secondary">Rimuovi filtro</a>
+    </p>
+</form>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Sigla)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Denominazione)
+            </th>
+            
+            <th>
+                @Html.DisplayNameFor(model => model.CodiceCittaMetropolitana)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdRegioneNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Sigla)
+                </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Denominazione)
+            </td>
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.CodiceCittaMetropolitana)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdRegioneNavigation.Id)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

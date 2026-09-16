@@ -1,0 +1,14 @@
+C:\Users\riccardo.casarotti\Desktop\C#\Interfaccia\Atleti\bin\Debug\net10.0\Atleti.exe
+C:\Users\riccardo.casarotti\Desktop\C#\Interfaccia\Atleti\bin\Debug\net10.0\Atleti.deps.json
+C:\Users\riccardo.casarotti\Desktop\C#\Interfaccia\Atleti\bin\Debug\net10.0\Atleti.runtimeconfig.json
+C:\Users\riccardo.casarotti\Desktop\C#\Interfaccia\Atleti\bin\Debug\net10.0\Atleti.dll
+C:\Users\riccardo.casarotti\Desktop\C#\Interfaccia\Atleti\bin\Debug\net10.0\Atleti.pdb
+C:\Users\riccardo.casarotti\Desktop\C#\Interfaccia\Atleti\obj\Debug\net10.0\Atleti.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\riccardo.casarotti\Desktop\C#\Interfaccia\Atleti\obj\Debug\net10.0\Atleti.AssemblyInfoInputs.cache
+C:\Users\riccardo.casarotti\Desktop\C#\Interfaccia\Atleti\obj\Debug\net10.0\Atleti.AssemblyInfo.cs
+C:\Users\riccardo.casarotti\Desktop\C#\Interfaccia\Atleti\obj\Debug\net10.0\Atleti.csproj.CoreCompileInputs.cache
+C:\Users\riccardo.casarotti\Desktop\C#\Interfaccia\Atleti\obj\Debug\net10.0\Atleti.dll
+C:\Users\riccardo.casarotti\Desktop\C#\Interfaccia\Atleti\obj\Debug\net10.0\refint\Atleti.dll
+C:\Users\riccardo.casarotti\Desktop\C#\Interfaccia\Atleti\obj\Debug\net10.0\Atleti.pdb
+C:\Users\riccardo.casarotti\Desktop\C#\Interfaccia\Atleti\obj\Debug\net10.0\Atleti.genruntimeconfig.cache
+C:\Users\riccardo.casarotti\Desktop\C#\Interfaccia\Atleti\obj\Debug\net10.0\ref\Atleti.dll
